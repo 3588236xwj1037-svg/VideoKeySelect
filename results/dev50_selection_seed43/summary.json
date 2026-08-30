@@ -1,0 +1,352 @@
+[
+  {
+    "video_id": "3462517143",
+    "qid": "2",
+    "type": "CW",
+    "candidate_frame_count": 25,
+    "report_path": "results/dev50_selection_seed43/3462517143_2/selection_report.json"
+  },
+  {
+    "video_id": "3441428429",
+    "qid": "10",
+    "type": "TN",
+    "candidate_frame_count": 90,
+    "report_path": "results/dev50_selection_seed43/3441428429_10/selection_report.json"
+  },
+  {
+    "video_id": "6356067859",
+    "qid": "6",
+    "type": "TN",
+    "candidate_frame_count": 36,
+    "report_path": "results/dev50_selection_seed43/6356067859_6/selection_report.json"
+  },
+  {
+    "video_id": "5026660202",
+    "qid": "8",
+    "type": "CW",
+    "candidate_frame_count": 90,
+    "report_path": "results/dev50_selection_seed43/5026660202_8/selection_report.json"
+  },
+  {
+    "video_id": "9873067604",
+    "qid": "4",
+    "type": "CW",
+    "candidate_frame_count": 39,
+    "report_path": "results/dev50_selection_seed43/9873067604_4/selection_report.json"
+  },
+  {
+    "video_id": "9088819598",
+    "qid": "1",
+    "type": "CW",
+    "candidate_frame_count": 23,
+    "report_path": "results/dev50_selection_seed43/9088819598_1/selection_report.json"
+  },
+  {
+    "video_id": "5296635780",
+    "qid": "7",
+    "type": "TN",
+    "candidate_frame_count": 22,
+    "report_path": "results/dev50_selection_seed43/5296635780_7/selection_report.json"
+  },
+  {
+    "video_id": "2614918961",
+    "qid": "1",
+    "type": "CW",
+    "candidate_frame_count": 44,
+    "report_path": "results/dev50_selection_seed43/2614918961_1/selection_report.json"
+  },
+  {
+    "video_id": "6201488511",
+    "qid": "5",
+    "type": "CW",
+    "candidate_frame_count": 86,
+    "report_path": "results/dev50_selection_seed43/6201488511_5/selection_report.json"
+  },
+  {
+    "video_id": "2976913210",
+    "qid": "6",
+    "type": "TC",
+    "candidate_frame_count": 19,
+    "report_path": "results/dev50_selection_seed43/2976913210_6/selection_report.json"
+  },
+  {
+    "video_id": "2793260225",
+    "qid": "6",
+    "type": "CH",
+    "candidate_frame_count": 19,
+    "report_path": "results/dev50_selection_seed43/2793260225_6/selection_report.json"
+  },
+  {
+    "video_id": "6136926089",
+    "qid": "8",
+    "type": "TN",
+    "candidate_frame_count": 51,
+    "report_path": "results/dev50_selection_seed43/6136926089_8/selection_report.json"
+  },
+  {
+    "video_id": "5987365500",
+    "qid": "1",
+    "type": "CW",
+    "candidate_frame_count": 24,
+    "report_path": "results/dev50_selection_seed43/5987365500_1/selection_report.json"
+  },
+  {
+    "video_id": "6329077812",
+    "qid": "2",
+    "type": "CW",
+    "candidate_frame_count": 62,
+    "report_path": "results/dev50_selection_seed43/6329077812_2/selection_report.json"
+  },
+  {
+    "video_id": "6793786769",
+    "qid": "5",
+    "type": "TC",
+    "candidate_frame_count": 49,
+    "report_path": "results/dev50_selection_seed43/6793786769_5/selection_report.json"
+  },
+  {
+    "video_id": "3158022797",
+    "qid": "2",
+    "type": "CW",
+    "candidate_frame_count": 90,
+    "report_path": "results/dev50_selection_seed43/3158022797_2/selection_report.json"
+  },
+  {
+    "video_id": "6582763207",
+    "qid": "2",
+    "type": "CW",
+    "candidate_frame_count": 30,
+    "report_path": "results/dev50_selection_seed43/6582763207_2/selection_report.json"
+  },
+  {
+    "video_id": "7416295940",
+    "qid": "7",
+    "type": "TN",
+    "candidate_frame_count": 80,
+    "report_path": "results/dev50_selection_seed43/7416295940_7/selection_report.json"
+  },
+  {
+    "video_id": "3171006258",
+    "qid": "0",
+    "type": "CW",
+    "candidate_frame_count": 37,
+    "report_path": "results/dev50_selection_seed43/3171006258_0/selection_report.json"
+  },
+  {
+    "video_id": "3943634344",
+    "qid": "4",
+    "type": "TN",
+    "candidate_frame_count": 21,
+    "report_path": "results/dev50_selection_seed43/3943634344_4/selection_report.json"
+  },
+  {
+    "video_id": "5833145209",
+    "qid": "5",
+    "type": "CW",
+    "candidate_frame_count": 18,
+    "report_path": "results/dev50_selection_seed43/5833145209_5/selection_report.json"
+  },
+  {
+    "video_id": "5333075105",
+    "qid": "10",
+    "type": "CW",
+    "candidate_frame_count": 39,
+    "report_path": "results/dev50_selection_seed43/5333075105_10/selection_report.json"
+  },
+  {
+    "video_id": "3963997053",
+    "qid": "7",
+    "type": "DL",
+    "candidate_frame_count": 20,
+    "report_path": "results/dev50_selection_seed43/3963997053_7/selection_report.json"
+  },
+  {
+    "video_id": "9082180631",
+    "qid": "2",
+    "type": "CW",
+    "candidate_frame_count": 14,
+    "report_path": "results/dev50_selection_seed43/9082180631_2/selection_report.json"
+  },
+  {
+    "video_id": "7533369046",
+    "qid": "5",
+    "type": "DL",
+    "candidate_frame_count": 34,
+    "report_path": "results/dev50_selection_seed43/7533369046_5/selection_report.json"
+  },
+  {
+    "video_id": "5679866364",
+    "qid": "1",
+    "type": "TC",
+    "candidate_frame_count": 26,
+    "report_path": "results/dev50_selection_seed43/5679866364_1/selection_report.json"
+  },
+  {
+    "video_id": "5116088152",
+    "qid": "1",
+    "type": "CW",
+    "candidate_frame_count": 41,
+    "report_path": "results/dev50_selection_seed43/5116088152_1/selection_report.json"
+  },
+  {
+    "video_id": "4094488636",
+    "qid": "4",
+    "type": "TN",
+    "candidate_frame_count": 28,
+    "report_path": "results/dev50_selection_seed43/4094488636_4/selection_report.json"
+  },
+  {
+    "video_id": "7149153537",
+    "qid": "0",
+    "type": "CW",
+    "candidate_frame_count": 47,
+    "report_path": "results/dev50_selection_seed43/7149153537_0/selection_report.json"
+  },
+  {
+    "video_id": "3562017845",
+    "qid": "7",
+    "type": "CH",
+    "candidate_frame_count": 41,
+    "report_path": "results/dev50_selection_seed43/3562017845_7/selection_report.json"
+  },
+  {
+    "video_id": "6895608152",
+    "qid": "8",
+    "type": "CW",
+    "candidate_frame_count": 88,
+    "report_path": "results/dev50_selection_seed43/6895608152_8/selection_report.json"
+  },
+  {
+    "video_id": "6265968082",
+    "qid": "4",
+    "type": "CW",
+    "candidate_frame_count": 43,
+    "report_path": "results/dev50_selection_seed43/6265968082_4/selection_report.json"
+  },
+  {
+    "video_id": "2984974097",
+    "qid": "5",
+    "type": "CH",
+    "candidate_frame_count": 30,
+    "report_path": "results/dev50_selection_seed43/2984974097_5/selection_report.json"
+  },
+  {
+    "video_id": "3429509208",
+    "qid": "3",
+    "type": "TN",
+    "candidate_frame_count": 16,
+    "report_path": "results/dev50_selection_seed43/3429509208_3/selection_report.json"
+  },
+  {
+    "video_id": "3550839192",
+    "qid": "5",
+    "type": "DO",
+    "candidate_frame_count": 36,
+    "report_path": "results/dev50_selection_seed43/3550839192_5/selection_report.json"
+  },
+  {
+    "video_id": "3477387686",
+    "qid": "2",
+    "type": "TN",
+    "candidate_frame_count": 68,
+    "report_path": "results/dev50_selection_seed43/3477387686_2/selection_report.json"
+  },
+  {
+    "video_id": "2405940242",
+    "qid": "0",
+    "type": "CW",
+    "candidate_frame_count": 14,
+    "report_path": "results/dev50_selection_seed43/2405940242_0/selection_report.json"
+  },
+  {
+    "video_id": "7308042410",
+    "qid": "3",
+    "type": "CW",
+    "candidate_frame_count": 34,
+    "report_path": "results/dev50_selection_seed43/7308042410_3/selection_report.json"
+  },
+  {
+    "video_id": "7499763064",
+    "qid": "5",
+    "type": "CW",
+    "candidate_frame_count": 26,
+    "report_path": "results/dev50_selection_seed43/7499763064_5/selection_report.json"
+  },
+  {
+    "video_id": "8740703217",
+    "qid": "1",
+    "type": "TN",
+    "candidate_frame_count": 21,
+    "report_path": "results/dev50_selection_seed43/8740703217_1/selection_report.json"
+  },
+  {
+    "video_id": "3821781616",
+    "qid": "5",
+    "type": "DL",
+    "candidate_frame_count": 25,
+    "report_path": "results/dev50_selection_seed43/3821781616_5/selection_report.json"
+  },
+  {
+    "video_id": "4815534482",
+    "qid": "7",
+    "type": "CW",
+    "candidate_frame_count": 90,
+    "report_path": "results/dev50_selection_seed43/4815534482_7/selection_report.json"
+  },
+  {
+    "video_id": "4584426085",
+    "qid": "1",
+    "type": "TN",
+    "candidate_frame_count": 90,
+    "report_path": "results/dev50_selection_seed43/4584426085_1/selection_report.json"
+  },
+  {
+    "video_id": "4263096481",
+    "qid": "0",
+    "type": "CH",
+    "candidate_frame_count": 22,
+    "report_path": "results/dev50_selection_seed43/4263096481_0/selection_report.json"
+  },
+  {
+    "video_id": "4273039295",
+    "qid": "4",
+    "type": "CW",
+    "candidate_frame_count": 89,
+    "report_path": "results/dev50_selection_seed43/4273039295_4/selection_report.json"
+  },
+  {
+    "video_id": "5902452647",
+    "qid": "0",
+    "type": "CW",
+    "candidate_frame_count": 28,
+    "report_path": "results/dev50_selection_seed43/5902452647_0/selection_report.json"
+  },
+  {
+    "video_id": "3711681535",
+    "qid": "1",
+    "type": "CW",
+    "candidate_frame_count": 36,
+    "report_path": "results/dev50_selection_seed43/3711681535_1/selection_report.json"
+  },
+  {
+    "video_id": "3066064005",
+    "qid": "1",
+    "type": "CW",
+    "candidate_frame_count": 28,
+    "report_path": "results/dev50_selection_seed43/3066064005_1/selection_report.json"
+  },
+  {
+    "video_id": "11871253306",
+    "qid": "4",
+    "type": "CW",
+    "candidate_frame_count": 50,
+    "report_path": "results/dev50_selection_seed43/11871253306_4/selection_report.json"
+  },
+  {
+    "video_id": "3851961428",
+    "qid": "11",
+    "type": "TN",
+    "candidate_frame_count": 69,
+    "report_path": "results/dev50_selection_seed43/3851961428_11/selection_report.json"
+  }
+]

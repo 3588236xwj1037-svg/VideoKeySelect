@@ -1,0 +1,37 @@
+{
+  "text_only": {
+    "evaluated": 50,
+    "correct": 16,
+    "accuracy": 0.32,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.08104000000000004
+  },
+  "uniform": {
+    "evaluated": 50,
+    "correct": 39,
+    "accuracy": 0.78,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.28291999999999995
+  },
+  "random": {
+    "evaluated": 50,
+    "correct": 36,
+    "accuracy": 0.72,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.28006
+  },
+  "clip_topk": {
+    "evaluated": 50,
+    "correct": 32,
+    "accuracy": 0.64,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.28052
+  },
+  "qatss": {
+    "evaluated": 50,
+    "correct": 35,
+    "accuracy": 0.7,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.27999999999999997
+  }
+}

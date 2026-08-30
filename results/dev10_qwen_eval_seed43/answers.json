@@ -1,0 +1,892 @@
+[
+  {
+    "video_id": "4010069381",
+    "qid": "6",
+    "type": "CH",
+    "question": "how do the two man play the instrument",
+    "correct_answer": "A",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.973
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          4.0,
+          8.0,
+          12.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.438
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          4.0,
+          5.0,
+          7.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.31
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          4.0,
+          10.0,
+          11.0,
+          12.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.31
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4010069381_6/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          4.0,
+          6.0,
+          10.0,
+          12.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.31
+      }
+    }
+  },
+  {
+    "video_id": "4882821564",
+    "qid": "1",
+    "type": "CW",
+    "question": "why did the boy pick up one present from the group of them and move to the sofa",
+    "correct_answer": "C",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.063
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          29.0,
+          59.0,
+          89.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          43.0,
+          57.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          7.0,
+          16.0,
+          46.0,
+          64.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4882821564_1/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          6.0,
+          16.0,
+          69.0,
+          87.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      }
+    }
+  },
+  {
+    "video_id": "2834146886",
+    "qid": "8",
+    "type": "TN",
+    "question": "what does the white dog do after going to the cushion",
+    "correct_answer": "C",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": false,
+        "inference_seconds": 0.063
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          20.0,
+          41.0,
+          62.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.209
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          24.0,
+          30.0,
+          39.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.208
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          37.0,
+          38.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.208
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2834146886_8/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          38.0,
+          42.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.208
+      }
+    }
+  },
+  {
+    "video_id": "5735711594",
+    "qid": "5",
+    "type": "TC",
+    "question": "how did the white dog respond to the brown dog when it attacks from its tail",
+    "correct_answer": "B",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": false,
+        "inference_seconds": 0.063
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          6.0,
+          12.0,
+          19.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.175
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          7.0,
+          8.0,
+          11.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.166
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          9.0,
+          14.0,
+          17.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.166
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5735711594_5/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          9.0,
+          14.0,
+          17.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": false,
+        "inference_seconds": 0.166
+      }
+    }
+  },
+  {
+    "video_id": "8547321641",
+    "qid": "7",
+    "type": "DC",
+    "question": "how many babies are in the video",
+    "correct_answer": "E",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.063
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          3.0,
+          6.0,
+          10.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.249
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          4.0,
+          5.0,
+          9.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.247
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          2.0,
+          3.0,
+          7.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.247
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8547321641_7/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          3.0,
+          7.0,
+          9.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      }
+    }
+  },
+  {
+    "video_id": "5840177726",
+    "qid": "3",
+    "type": "DO",
+    "question": "how are the men positioned in the video",
+    "correct_answer": "A",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": false,
+        "inference_seconds": 0.063
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          4.0,
+          8.0,
+          12.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          4.0,
+          5.0,
+          7.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          7.0,
+          8.0,
+          11.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/5840177726_3/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          5.0,
+          7.0,
+          11.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      }
+    }
+  },
+  {
+    "video_id": "7508439506",
+    "qid": "4",
+    "type": "DL",
+    "question": "where is this video taken",
+    "correct_answer": "E",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": false,
+        "inference_seconds": 0.063
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          8.0,
+          16.0,
+          25.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.307
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          10.0,
+          11.0,
+          15.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.308
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          5.0,
+          6.0,
+          14.0,
+          18.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.308
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/7508439506_4/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          4.0,
+          6.0,
+          14.0,
+          18.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.307
+      }
+    }
+  },
+  {
+    "video_id": "2435100235",
+    "qid": "7",
+    "type": "CH",
+    "question": "how does the man cycling try to sell the watch to the man in the trishaw",
+    "correct_answer": "C",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.064
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          21.0,
+          42.0,
+          63.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          25.0,
+          30.0,
+          40.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.311
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          6.0,
+          38.0,
+          45.0,
+          55.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/2435100235_7/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          6.0,
+          38.0,
+          55.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.314
+      }
+    }
+  },
+  {
+    "video_id": "8132842161",
+    "qid": "2",
+    "type": "CW",
+    "question": "why did the man in white hold tightly to the boy in white",
+    "correct_answer": "D",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": false,
+        "inference_seconds": 0.063
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          12.0,
+          24.0,
+          36.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          14.0,
+          17.0,
+          22.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          6.0,
+          7.0,
+          8.0,
+          10.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.25
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/8132842161_2/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          6.0,
+          10.0,
+          15.0,
+          28.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": false,
+        "inference_seconds": 0.247
+      }
+    }
+  },
+  {
+    "video_id": "4260763967",
+    "qid": "4",
+    "type": "CW",
+    "question": "why is the boy in yellow reaching out to things on the green mat",
+    "correct_answer": "C",
+    "methods": {
+      "text_only": {
+        "frame_paths": [],
+        "selected_timestamps": [],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": false,
+        "inference_seconds": 0.062
+      },
+      "uniform": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/uniform_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/uniform_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/uniform_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/uniform_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          11.0,
+          22.0,
+          33.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      },
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          13.0,
+          15.0,
+          20.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      },
+      "clip_topk": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/clip_topk_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/clip_topk_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/clip_topk_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/clip_topk_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          11.0,
+          12.0,
+          24.0,
+          33.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      },
+      "qatss": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/qatss_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/qatss_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/qatss_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev10_selection_seed43/4260763967_4/qatss_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          8.0,
+          11.0,
+          24.0,
+          33.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      }
+    }
+  }
+]

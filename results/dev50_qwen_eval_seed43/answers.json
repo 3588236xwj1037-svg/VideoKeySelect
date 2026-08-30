@@ -1,0 +1,1352 @@
+[
+  {
+    "video_id": "3462517143",
+    "qid": "2",
+    "type": "CW",
+    "question": "why is the white dog walking around the green container",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3462517143_2/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3462517143_2/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3462517143_2/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3462517143_2/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          9.0,
+          11.0,
+          15.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 1.262
+      }
+    }
+  },
+  {
+    "video_id": "3441428429",
+    "qid": "10",
+    "type": "TN",
+    "question": "what does the female skater do after the male skater puts her back down on the ice",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3441428429_10/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3441428429_10/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3441428429_10/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3441428429_10/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          43.0,
+          57.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.314
+      }
+    }
+  },
+  {
+    "video_id": "6356067859",
+    "qid": "6",
+    "type": "TN",
+    "question": "what does the girl in white do after bending down in the middle",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6356067859_6/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6356067859_6/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6356067859_6/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6356067859_6/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          14.0,
+          16.0,
+          22.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "5026660202",
+    "qid": "8",
+    "type": "CW",
+    "question": "why are there high chairs on the stage",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5026660202_8/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5026660202_8/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5026660202_8/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5026660202_8/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          43.0,
+          57.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      }
+    }
+  },
+  {
+    "video_id": "9873067604",
+    "qid": "4",
+    "type": "CW",
+    "question": "why did the boy in white sway his head around",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9873067604_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9873067604_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9873067604_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9873067604_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          15.0,
+          18.0,
+          24.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": false,
+        "inference_seconds": 0.249
+      }
+    }
+  },
+  {
+    "video_id": "9088819598",
+    "qid": "1",
+    "type": "CW",
+    "question": "why does the baby keep the ball near his mouth in the beginning",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9088819598_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9088819598_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9088819598_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9088819598_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          8.0,
+          10.0,
+          13.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.313
+      }
+    }
+  },
+  {
+    "video_id": "5296635780",
+    "qid": "7",
+    "type": "TN",
+    "question": "what does the man do after the lady appear to punch him and smiles",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5296635780_7/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5296635780_7/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5296635780_7/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5296635780_7/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          8.0,
+          9.0,
+          13.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": false,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "2614918961",
+    "qid": "1",
+    "type": "CW",
+    "question": "why does the baby turn around near the end of the video",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2614918961_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2614918961_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2614918961_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2614918961_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          17.0,
+          20.0,
+          27.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": false,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "6201488511",
+    "qid": "5",
+    "type": "CW",
+    "question": "why did the lady put her hands over her eyes in the middle of the video",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6201488511_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6201488511_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6201488511_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6201488511_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          34.0,
+          41.0,
+          54.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": false,
+        "inference_seconds": 0.249
+      }
+    }
+  },
+  {
+    "video_id": "2976913210",
+    "qid": "6",
+    "type": "TC",
+    "question": "how did the man respond when he is stuck in the dirt",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2976913210_6/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2976913210_6/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2976913210_6/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2976913210_6/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          7.0,
+          8.0,
+          11.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.312
+      }
+    }
+  },
+  {
+    "video_id": "2793260225",
+    "qid": "6",
+    "type": "CH",
+    "question": "how did the lady and man on top try to keep their balance",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2793260225_6/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2793260225_6/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2793260225_6/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2793260225_6/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          7.0,
+          8.0,
+          11.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.209
+      }
+    }
+  },
+  {
+    "video_id": "6136926089",
+    "qid": "8",
+    "type": "TN",
+    "question": "what does the baby do after letting go of the cart",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6136926089_8/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6136926089_8/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6136926089_8/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6136926089_8/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          20.0,
+          24.0,
+          31.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.31
+      }
+    }
+  },
+  {
+    "video_id": "5987365500",
+    "qid": "1",
+    "type": "CW",
+    "question": "why does the girl have her mouth close to the item",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5987365500_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5987365500_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5987365500_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5987365500_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          9.0,
+          10.0,
+          14.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.311
+      }
+    }
+  },
+  {
+    "video_id": "6329077812",
+    "qid": "2",
+    "type": "CW",
+    "question": "why is the lady holding the baby",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6329077812_2/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6329077812_2/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6329077812_2/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6329077812_2/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          24.0,
+          29.0,
+          39.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": false,
+        "inference_seconds": 0.249
+      }
+    }
+  },
+  {
+    "video_id": "6793786769",
+    "qid": "5",
+    "type": "TC",
+    "question": "what is the person in black behind the boy doing as the boy plays with the train",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6793786769_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6793786769_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6793786769_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6793786769_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          19.0,
+          23.0,
+          30.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.249
+      }
+    }
+  },
+  {
+    "video_id": "3158022797",
+    "qid": "2",
+    "type": "CW",
+    "question": "why are the people synchronizing their moves",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3158022797_2/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3158022797_2/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3158022797_2/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3158022797_2/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          43.0,
+          57.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "6582763207",
+    "qid": "2",
+    "type": "CW",
+    "question": "why is the lady standing in the middle tapping on the instrument in the beginning",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6582763207_2/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6582763207_2/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6582763207_2/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6582763207_2/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          11.0,
+          13.0,
+          18.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      }
+    }
+  },
+  {
+    "video_id": "7416295940",
+    "qid": "7",
+    "type": "TN",
+    "question": "what does the dog do after the baby touches and caresses the dog s back",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7416295940_7/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7416295940_7/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7416295940_7/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7416295940_7/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          31.0,
+          38.0,
+          50.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.262
+      }
+    }
+  },
+  {
+    "video_id": "3171006258",
+    "qid": "0",
+    "type": "CW",
+    "question": "why did the man remove one of his skates before standing up",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3171006258_0/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3171006258_0/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3171006258_0/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3171006258_0/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          14.0,
+          17.0,
+          22.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "3943634344",
+    "qid": "4",
+    "type": "TN",
+    "question": "what did the girl do after she finished reciting the pictures on the book",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3943634344_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3943634344_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3943634344_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3943634344_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          8.0,
+          9.0,
+          12.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": false,
+        "inference_seconds": 0.247
+      }
+    }
+  },
+  {
+    "video_id": "5833145209",
+    "qid": "5",
+    "type": "CW",
+    "question": "why did the brown bird bend over into the water",
+    "correct_answer": "A",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5833145209_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5833145209_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5833145209_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5833145209_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          6.0,
+          7.0,
+          10.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "5333075105",
+    "qid": "10",
+    "type": "CW",
+    "question": "why is the man on all fours as he travelled through the thick snow",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5333075105_10/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5333075105_10/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5333075105_10/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5333075105_10/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          15.0,
+          18.0,
+          24.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "3963997053",
+    "qid": "7",
+    "type": "DL",
+    "question": "where is the performance taking place",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3963997053_7/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3963997053_7/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3963997053_7/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3963997053_7/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          7.0,
+          8.0,
+          11.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.307
+      }
+    }
+  },
+  {
+    "video_id": "9082180631",
+    "qid": "2",
+    "type": "CW",
+    "question": "why does the woman in green pants skate behind everyone else",
+    "correct_answer": "A",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9082180631_2/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9082180631_2/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9082180631_2/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/9082180631_2/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          5.0,
+          7.0,
+          12.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      }
+    }
+  },
+  {
+    "video_id": "7533369046",
+    "qid": "5",
+    "type": "DL",
+    "question": "where is this video taken",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7533369046_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7533369046_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7533369046_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7533369046_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          13.0,
+          15.0,
+          20.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      }
+    }
+  },
+  {
+    "video_id": "5679866364",
+    "qid": "1",
+    "type": "TC",
+    "question": "how does the old man respond when the old woman turns to him at the beginning",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5679866364_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5679866364_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5679866364_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5679866364_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          10.0,
+          11.0,
+          15.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "5116088152",
+    "qid": "1",
+    "type": "CW",
+    "question": "why did the baby put his other hand on the fruit after awhile of putting the fruit in his mouth",
+    "correct_answer": "A",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5116088152_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5116088152_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5116088152_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5116088152_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          16.0,
+          19.0,
+          25.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": false,
+        "inference_seconds": 0.249
+      }
+    }
+  },
+  {
+    "video_id": "4094488636",
+    "qid": "4",
+    "type": "TN",
+    "question": "what does the brown dog do after stepping over the red strap near the start",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4094488636_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4094488636_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4094488636_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4094488636_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          10.0,
+          12.0,
+          16.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      }
+    }
+  },
+  {
+    "video_id": "7149153537",
+    "qid": "0",
+    "type": "CW",
+    "question": "why are the men holding the girls in the water",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7149153537_0/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7149153537_0/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7149153537_0/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7149153537_0/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          18.0,
+          22.0,
+          29.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.247
+      }
+    }
+  },
+  {
+    "video_id": "3562017845",
+    "qid": "7",
+    "type": "CH",
+    "question": "how did the bird in the front get to the other side of the land",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3562017845_7/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3562017845_7/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3562017845_7/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3562017845_7/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          16.0,
+          19.0,
+          25.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.273
+      }
+    }
+  },
+  {
+    "video_id": "6895608152",
+    "qid": "8",
+    "type": "CW",
+    "question": "why is the lady in white moving around the stage",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6895608152_8/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6895608152_8/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6895608152_8/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6895608152_8/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          34.0,
+          42.0,
+          56.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": false,
+        "inference_seconds": 0.249
+      }
+    }
+  },
+  {
+    "video_id": "6265968082",
+    "qid": "4",
+    "type": "CW",
+    "question": "why is the man in jeans wearing a pair of sunglasses",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6265968082_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6265968082_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6265968082_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/6265968082_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          16.0,
+          20.0,
+          26.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.249
+      }
+    }
+  },
+  {
+    "video_id": "2984974097",
+    "qid": "5",
+    "type": "CH",
+    "question": "how does the girl move forward",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2984974097_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2984974097_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2984974097_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2984974097_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          11.0,
+          13.0,
+          18.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.207
+      }
+    }
+  },
+  {
+    "video_id": "3429509208",
+    "qid": "3",
+    "type": "TN",
+    "question": "what did the baby do after he approached near the camera",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3429509208_3/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3429509208_3/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3429509208_3/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3429509208_3/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          6.0,
+          9.0,
+          14.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": false,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "3550839192",
+    "qid": "5",
+    "type": "DO",
+    "question": "what did the baby hold onto",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3550839192_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3550839192_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3550839192_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3550839192_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          14.0,
+          16.0,
+          22.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.248
+      }
+    }
+  },
+  {
+    "video_id": "3477387686",
+    "qid": "2",
+    "type": "TN",
+    "question": "what did the girl do after lifting the dog s ear in the middle of the video",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3477387686_2/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3477387686_2/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3477387686_2/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3477387686_2/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          26.0,
+          32.0,
+          43.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "2405940242",
+    "qid": "0",
+    "type": "CW",
+    "question": "why is the lady in white wearing a helmet",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2405940242_0/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2405940242_0/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2405940242_0/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/2405940242_0/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          5.0,
+          7.0,
+          12.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.207
+      }
+    }
+  },
+  {
+    "video_id": "7308042410",
+    "qid": "3",
+    "type": "CW",
+    "question": "why is the girl bending forward at the beginning of the video",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7308042410_3/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7308042410_3/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7308042410_3/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7308042410_3/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          13.0,
+          15.0,
+          20.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.703
+      }
+    }
+  },
+  {
+    "video_id": "7499763064",
+    "qid": "5",
+    "type": "CW",
+    "question": "why did the man stretch his arm out to touch the rope in the middle",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7499763064_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7499763064_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7499763064_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/7499763064_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          10.0,
+          11.0,
+          15.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.247
+      }
+    }
+  },
+  {
+    "video_id": "8740703217",
+    "qid": "1",
+    "type": "TN",
+    "question": "what does the baby do after she stops waving her arm up and down",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/8740703217_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/8740703217_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/8740703217_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/8740703217_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          8.0,
+          9.0,
+          12.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.246
+      }
+    }
+  },
+  {
+    "video_id": "3821781616",
+    "qid": "5",
+    "type": "DL",
+    "question": "where is the man at",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3821781616_5/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3821781616_5/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3821781616_5/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3821781616_5/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          9.0,
+          11.0,
+          15.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.307
+      }
+    }
+  },
+  {
+    "video_id": "4815534482",
+    "qid": "7",
+    "type": "CW",
+    "question": "why did the boy shift around",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4815534482_7/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4815534482_7/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4815534482_7/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4815534482_7/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          43.0,
+          57.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.247
+      }
+    }
+  },
+  {
+    "video_id": "4584426085",
+    "qid": "1",
+    "type": "TN",
+    "question": "what did the lady do after grabbing the puppy the second time",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4584426085_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4584426085_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4584426085_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4584426085_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          43.0,
+          57.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": false,
+        "inference_seconds": 0.204
+      }
+    }
+  },
+  {
+    "video_id": "4263096481",
+    "qid": "0",
+    "type": "CH",
+    "question": "how does the man cut the fish first",
+    "correct_answer": "E",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4263096481_0/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4263096481_0/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4263096481_0/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4263096481_0/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          0.0,
+          8.0,
+          9.0,
+          13.0
+        ],
+        "raw_answer": "E",
+        "parsed_answer": "E",
+        "is_correct": true,
+        "inference_seconds": 0.144
+      }
+    }
+  },
+  {
+    "video_id": "4273039295",
+    "qid": "4",
+    "type": "CW",
+    "question": "why does the baby bend down near the tree",
+    "correct_answer": "A",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4273039295_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4273039295_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4273039295_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/4273039295_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          35.0,
+          43.0,
+          56.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.246
+      }
+    }
+  },
+  {
+    "video_id": "5902452647",
+    "qid": "0",
+    "type": "CW",
+    "question": "why did the baby hold the ball and moving forward",
+    "correct_answer": "D",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5902452647_0/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5902452647_0/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5902452647_0/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/5902452647_0/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          10.0,
+          12.0,
+          16.0
+        ],
+        "raw_answer": "D",
+        "parsed_answer": "D",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "3711681535",
+    "qid": "1",
+    "type": "CW",
+    "question": "why does the woman let go of the handle near the end",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3711681535_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3711681535_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3711681535_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3711681535_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          14.0,
+          16.0,
+          22.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.309
+      }
+    }
+  },
+  {
+    "video_id": "3066064005",
+    "qid": "1",
+    "type": "CW",
+    "question": "why is the woman in purple holding on to a bunch of cutlery",
+    "correct_answer": "A",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3066064005_1/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3066064005_1/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3066064005_1/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3066064005_1/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          1.0,
+          10.0,
+          12.0,
+          16.0
+        ],
+        "raw_answer": "A",
+        "parsed_answer": "A",
+        "is_correct": true,
+        "inference_seconds": 0.308
+      }
+    }
+  },
+  {
+    "video_id": "11871253306",
+    "qid": "4",
+    "type": "CW",
+    "question": "how did the men squat down on the floor in the beginning",
+    "correct_answer": "C",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/11871253306_4/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/11871253306_4/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/11871253306_4/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/11871253306_4/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          2.0,
+          19.0,
+          23.0,
+          31.0
+        ],
+        "raw_answer": "C",
+        "parsed_answer": "C",
+        "is_correct": true,
+        "inference_seconds": 0.17
+      }
+    }
+  },
+  {
+    "video_id": "3851961428",
+    "qid": "11",
+    "type": "TN",
+    "question": "how did the man on the most right reacted after the man in red showed him a hand gesture",
+    "correct_answer": "B",
+    "methods": {
+      "random": {
+        "frame_paths": [
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3851961428_11/random_frames/00.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3851961428_11/random_frames/01.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3851961428_11/random_frames/02.jpg",
+          "/root/autodl-tmp/video-keyframe-vqa/results/dev50_selection_seed43/3851961428_11/random_frames/03.jpg"
+        ],
+        "selected_timestamps": [
+          3.0,
+          27.0,
+          33.0,
+          43.0
+        ],
+        "raw_answer": "B",
+        "parsed_answer": "B",
+        "is_correct": true,
+        "inference_seconds": 0.308
+      }
+    }
+  }
+]

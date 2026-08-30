@@ -1,0 +1,9 @@
+{
+  "random": {
+    "evaluated": 50,
+    "correct": 36,
+    "accuracy": 0.72,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.29824
+  }
+}

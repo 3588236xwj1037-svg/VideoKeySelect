@@ -1,0 +1,9 @@
+{
+  "qatss_v2": {
+    "evaluated": 50,
+    "correct": 32,
+    "accuracy": 0.64,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.30045999999999995
+  }
+}

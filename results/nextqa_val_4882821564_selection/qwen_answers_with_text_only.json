@@ -1,0 +1,89 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "question": "Why did the boy pick up one present from the group of them and move to the sofa?",
+  "choices": {
+    "A": "share with the girl",
+    "B": "approach lady sitting there",
+    "C": "unwrap it",
+    "D": "playing with toy train",
+    "E": "gesture something"
+  },
+  "correct_answer": "C",
+  "methods": {
+    "text_only": {
+      "frame_paths": [],
+      "selected_timestamps": [],
+      "raw_answer": "C",
+      "parsed_answer": "C",
+      "is_correct": true
+    },
+    "uniform": {
+      "frame_paths": [
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/uniform_frames/00.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/uniform_frames/01.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/uniform_frames/02.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/uniform_frames/03.jpg"
+      ],
+      "selected_timestamps": [
+        0.0,
+        29.0,
+        59.0,
+        89.0
+      ],
+      "raw_answer": "C",
+      "parsed_answer": "C",
+      "is_correct": true
+    },
+    "random": {
+      "frame_paths": [
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/random_frames/00.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/random_frames/01.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/random_frames/02.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/random_frames/03.jpg"
+      ],
+      "selected_timestamps": [
+        7.0,
+        39.0,
+        58.0,
+        68.0
+      ],
+      "raw_answer": "C",
+      "parsed_answer": "C",
+      "is_correct": true
+    },
+    "clip_topk": {
+      "frame_paths": [
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/clip_topk_frames/00.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/clip_topk_frames/01.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/clip_topk_frames/02.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/clip_topk_frames/03.jpg"
+      ],
+      "selected_timestamps": [
+        7.0,
+        16.0,
+        46.0,
+        64.0
+      ],
+      "raw_answer": "C",
+      "parsed_answer": "C",
+      "is_correct": true
+    },
+    "qatss": {
+      "frame_paths": [
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/qatss_frames/00.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/qatss_frames/01.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/qatss_frames/02.jpg",
+        "/root/autodl-tmp/video-keyframe-vqa/results/nextqa_val_4882821564_selection/qatss_frames/03.jpg"
+      ],
+      "selected_timestamps": [
+        6.0,
+        16.0,
+        69.0,
+        87.0
+      ],
+      "raw_answer": "C",
+      "parsed_answer": "C",
+      "is_correct": true
+    }
+  }
+}
