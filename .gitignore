@@ -1,31 +1,37 @@
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.ipynb_checkpoints/
+# 原始数据、特征与处理数据
+data/nextqa/downloads/
+data/nextqa/*.csv
+data/nextqa/*.npy
+data/nextqa/*.pkl
+data/nextqa/manifests/*.jsonl
+data/processed/
 
-.env
-*.key
-*.pem
-*.log
-
+# 模型、检查点与训练输出
+outputs/
 hf-cache/
-.cache/
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
 *.safetensors
-checkpoints/
 
-data/nextqa/videos/
-data/raw/
+# 大型实验产物，仅保留 summary.json 等汇总结果
+results/**/answers.json
+results/**/selection_report.json
+results/**/*_frames/
 *.mp4
 *.avi
-*.mov
 *.mkv
+*.jpg
+*.jpeg
+*.png
+*.npz
 
-results/**/uniform_frames/
-results/**/random_frames/
-results/**/clip_topk_frames/
-results/**/qatss_frames/
-
-results/**/uniform_grid.jpg
-results/**/random_grid.jpg
-results/**/clip_topk_grid.jpg
-results/**/qatss_grid.jpg
+# 本地配置与密钥
+.env
+*.pem
+*.key
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/

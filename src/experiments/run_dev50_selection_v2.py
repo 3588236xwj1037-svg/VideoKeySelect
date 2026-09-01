@@ -6,18 +6,21 @@ import numpy as np
 from src.samplers.candidates import sample_by_fps
 from src.samplers.random import random_indices
 from src.samplers.uniform import save_frames
-from src.selectors.clip_topk import clip_topk_select, load_clip_model
-from src.selectors.qatss_v2 import qatss_v2_select
+from src.selectors.clip_topk import extract_clip_features, load_clip_model
+from src.selectors.qatss_v2 import select_indices_from_features
 
 
 MANIFEST_PATH = Path("data/nextqa/manifests/dev50.jsonl")
-OUTPUT_ROOT = Path("results/dev50_selection_v2")
+OUTPUT_ROOT = Path("results/dev50_selection_v2_adaptive")
 
 SAMPLE_FPS = 1.0
 TOP_K = 4
 RANDOM_SEED = 42
-ALPHA = 0.75
+ALPHA = 0.85
 MIN_GAP_SECONDS = 1.5
+DIVERSITY_WEIGHT = 0.12
+COVERAGE_WEIGHT = 0.10
+LOCAL_CONTEXT_SECONDS = 1.5
 
 
 def uniform_indices(num_frames: int, top_k: int) -> list[int]:
@@ -80,34 +83,37 @@ def main():
             seed=RANDOM_SEED,
         )
 
-        clip_selected, clip_scores, clip_ranking = clip_topk_select(
+        image_features, text_feature = extract_clip_features(
             frames=frames,
             question=record["question"],
-            top_k=TOP_K,
             model=model,
             preprocess=preprocess,
             tokenizer=tokenizer,
             device=device,
         )
+        clip_scores = image_features @ text_feature
+        clip_ranking = np.argsort(-clip_scores, kind="stable").tolist()
+        clip_selected = sorted(int(index) for index in clip_ranking[:TOP_K])
 
-        qatss_v2_selected, qatss_v2_details = qatss_v2_select(
-            frames=frames,
+        qatss_v2_selected, qatss_v2_details = select_indices_from_features(
+            frame_features=image_features,
+            text_feature=text_feature,
             timestamps=timestamps,
             question=record["question"],
+            question_type=record.get("type"),
             top_k=TOP_K,
-            model=model,
-            preprocess=preprocess,
-            tokenizer=tokenizer,
-            device=device,
-            alpha=ALPHA,
+            relevance_weight=ALPHA,
             min_gap_seconds=MIN_GAP_SECONDS,
+            diversity_weight=DIVERSITY_WEIGHT,
+            coverage_weight=COVERAGE_WEIGHT,
+            local_context_seconds=LOCAL_CONTEXT_SECONDS,
         )
 
         methods = {
             "uniform": uniform,
             "random": random,
             "clip_topk": clip_selected,
-            "qatss": qatss_v2_selected,
+            "qatss_v2": qatss_v2_selected,
         }
 
         for method, indices in methods.items():
@@ -123,8 +129,13 @@ def main():
             "candidate_frame_count": len(frames),
             "random_seed": RANDOM_SEED,
             "top_k": TOP_K,
-            "qatss_alpha": ALPHA,
-            "qatss_min_gap_seconds": MIN_GAP_SECONDS,
+            "qatss_v2_config": {
+                "relevance_weight": ALPHA,
+                "min_gap_seconds": MIN_GAP_SECONDS,
+                "diversity_weight": DIVERSITY_WEIGHT,
+                "coverage_weight": COVERAGE_WEIGHT,
+                "local_context_seconds": LOCAL_CONTEXT_SECONDS,
+            },
             "methods": {
                 method: {
                     "selected_indices": indices,
@@ -152,6 +163,7 @@ def main():
                     for score in qatss_v2_details["combined_score"]
                 ],
                 "ranking": qatss_v2_details["ranking"],
+                "details": qatss_v2_details,
             },
         }
 

@@ -1,0 +1,198 @@
+{
+  "uniform": {
+    "evaluated": 500,
+    "correct": 369,
+    "accuracy": 0.738,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.24783,
+    "by_type": {
+      "CH": {
+        "evaluated": 65,
+        "correct": 49,
+        "accuracy": 0.7538461538461538
+      },
+      "CW": {
+        "evaluated": 188,
+        "correct": 140,
+        "accuracy": 0.7446808510638298
+      },
+      "DC": {
+        "evaluated": 14,
+        "correct": 9,
+        "accuracy": 0.6428571428571429
+      },
+      "DL": {
+        "evaluated": 35,
+        "correct": 32,
+        "accuracy": 0.9142857142857143
+      },
+      "DO": {
+        "evaluated": 26,
+        "correct": 21,
+        "accuracy": 0.8076923076923077
+      },
+      "TC": {
+        "evaluated": 45,
+        "correct": 30,
+        "accuracy": 0.6666666666666666
+      },
+      "TN": {
+        "evaluated": 123,
+        "correct": 86,
+        "accuracy": 0.6991869918699187
+      },
+      "TP": {
+        "evaluated": 4,
+        "correct": 2,
+        "accuracy": 0.5
+      }
+    }
+  },
+  "clip_topk": {
+    "evaluated": 500,
+    "correct": 370,
+    "accuracy": 0.74,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.24590199999999998,
+    "by_type": {
+      "CH": {
+        "evaluated": 65,
+        "correct": 50,
+        "accuracy": 0.7692307692307693
+      },
+      "CW": {
+        "evaluated": 188,
+        "correct": 139,
+        "accuracy": 0.7393617021276596
+      },
+      "DC": {
+        "evaluated": 14,
+        "correct": 10,
+        "accuracy": 0.7142857142857143
+      },
+      "DL": {
+        "evaluated": 35,
+        "correct": 32,
+        "accuracy": 0.9142857142857143
+      },
+      "DO": {
+        "evaluated": 26,
+        "correct": 21,
+        "accuracy": 0.8076923076923077
+      },
+      "TC": {
+        "evaluated": 45,
+        "correct": 34,
+        "accuracy": 0.7555555555555555
+      },
+      "TN": {
+        "evaluated": 123,
+        "correct": 83,
+        "accuracy": 0.6747967479674797
+      },
+      "TP": {
+        "evaluated": 4,
+        "correct": 1,
+        "accuracy": 0.25
+      }
+    }
+  },
+  "qatss": {
+    "evaluated": 500,
+    "correct": 376,
+    "accuracy": 0.752,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.24596600000000002,
+    "by_type": {
+      "CH": {
+        "evaluated": 65,
+        "correct": 52,
+        "accuracy": 0.8
+      },
+      "CW": {
+        "evaluated": 188,
+        "correct": 141,
+        "accuracy": 0.75
+      },
+      "DC": {
+        "evaluated": 14,
+        "correct": 11,
+        "accuracy": 0.7857142857142857
+      },
+      "DL": {
+        "evaluated": 35,
+        "correct": 33,
+        "accuracy": 0.9428571428571428
+      },
+      "DO": {
+        "evaluated": 26,
+        "correct": 21,
+        "accuracy": 0.8076923076923077
+      },
+      "TC": {
+        "evaluated": 45,
+        "correct": 33,
+        "accuracy": 0.7333333333333333
+      },
+      "TN": {
+        "evaluated": 123,
+        "correct": 84,
+        "accuracy": 0.6829268292682927
+      },
+      "TP": {
+        "evaluated": 4,
+        "correct": 1,
+        "accuracy": 0.25
+      }
+    }
+  },
+  "qatss_v2": {
+    "evaluated": 500,
+    "correct": 369,
+    "accuracy": 0.738,
+    "invalid_output_count": 0,
+    "mean_inference_seconds": 0.24583,
+    "by_type": {
+      "CH": {
+        "evaluated": 65,
+        "correct": 50,
+        "accuracy": 0.7692307692307693
+      },
+      "CW": {
+        "evaluated": 188,
+        "correct": 135,
+        "accuracy": 0.7180851063829787
+      },
+      "DC": {
+        "evaluated": 14,
+        "correct": 11,
+        "accuracy": 0.7857142857142857
+      },
+      "DL": {
+        "evaluated": 35,
+        "correct": 34,
+        "accuracy": 0.9714285714285714
+      },
+      "DO": {
+        "evaluated": 26,
+        "correct": 21,
+        "accuracy": 0.8076923076923077
+      },
+      "TC": {
+        "evaluated": 45,
+        "correct": 34,
+        "accuracy": 0.7555555555555555
+      },
+      "TN": {
+        "evaluated": 123,
+        "correct": 83,
+        "accuracy": 0.6747967479674797
+      },
+      "TP": {
+        "evaluated": 4,
+        "correct": 1,
+        "accuracy": 0.25
+      }
+    }
+  }
+}

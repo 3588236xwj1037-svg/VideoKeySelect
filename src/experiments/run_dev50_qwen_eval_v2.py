@@ -11,8 +11,8 @@ from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
 MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
 CACHE_DIR = "/root/autodl-tmp/hf-cache"
 MANIFEST_PATH = Path("data/nextqa/manifests/dev50.jsonl")
-SELECTION_ROOT = Path("results/dev50_selection_v2")
-OUTPUT_ROOT = Path("results/dev50_qwen_eval_v2")
+SELECTION_ROOT = Path("results/dev50_selection_v2_adaptive")
+OUTPUT_ROOT = Path("results/dev50_qwen_eval_v2_adaptive")
 METHODS = ("qatss_v2",)
 
 
