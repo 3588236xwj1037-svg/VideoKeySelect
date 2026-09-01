@@ -27,13 +27,13 @@
 设视频经粗采样后得到按时间排序的候选帧序列：
 
 $$
-\mathcal{C} = \{x_0, x_1, \ldots, x_{N-1}\}
+\mathcal{C} = (x_i)_{i=0}^{N-1}
 $$
 
 其中 `N` 为候选帧数，帧预算为 `K`，实际选择数量为 `K' = min(K, N)`。当 `K' > 1` 时，Uniform-K 的第 `j` 个采样索引为：
 
 $$
-i_j = \left\lfloor \frac{j(N - 1)}{K' - 1} \right\rfloor,
+i_j = \lfloor \frac{j(N - 1)}{K' - 1} \rfloor,
 \quad j = 0, 1, \ldots, K' - 1
 $$
 
@@ -50,10 +50,12 @@ $$
 Random-K 从 `N` 个候选帧中均匀地、不重复地选取 `K'` 个帧索引：
 
 $$
-S \sim \mathrm{Uniform}\left(
-\left\{A \subseteq \{0,1,\ldots,N-1\}: |A| = K'\right\}
-\right)
+S \sim \mathrm{Uniform}(\mathcal{A}_{N,K'}),
+\qquad
+|\mathcal{A}_{N,K'}| = \binom{N}{K'}
 $$
+
+其中，`\mathcal{A}_{N,K'}` 表示从 `N` 个候选帧中选择 `K'` 个帧的全部合法组合。
 
 任意一组合法帧组合被选中的概率相同：
 
@@ -88,7 +90,7 @@ $$
 CLIP Top-K 按 `r_i` 从高到低取前 `K'` 个索引：
 
 $$
-S_{\mathrm{clip}} = \mathrm{TopK}\left(\{r_i\}_{i=0}^{N-1}, K'\right)
+S_{\mathrm{clip}} = \mathrm{TopK}((r_i)_{i=0}^{N-1}, K')
 $$
 
 最后将 `S_clip` 中的帧按时间排序。该方法能针对问题优先保留语义相关画面，但可能选择多个相邻的相似帧。
