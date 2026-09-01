@@ -35,3 +35,12 @@ results/**/*_frames/
 __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
+
+logs/
+results/dev1000_qlora_eval/
+results/dev1000_selection/
+results/dev500_selection/
+results/dev50_qwen_eval_v2_adaptive/
+results/dev50_selection_v2_adaptive/
+results/qlora_train_selection/
+results/qlora_val_selection/
