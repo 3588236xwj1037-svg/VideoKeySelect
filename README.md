@@ -26,22 +26,22 @@
 
 设视频经粗采样后得到按时间排序的候选帧序列：
 
-```math
+$$
 \mathcal{C} = \{x_0, x_1, \ldots, x_{N-1}\}
-```
+$$
 
 其中 `N` 为候选帧数，帧预算为 `K`，实际选择数量为 `K' = min(K, N)`。当 `K' > 1` 时，Uniform-K 的第 `j` 个采样索引为：
 
-```math
+$$
 i_j = \left\lfloor \frac{j(N - 1)}{K' - 1} \right\rfloor,
 \quad j = 0, 1, \ldots, K' - 1
-```
+$$
 
 若视频帧率为 `f`，对应时间戳为：
 
-```math
+$$
 t_{i_j} = \frac{i_j}{f}
-```
+$$
 
 该方法不使用问题文本或图像语义信息，但能保证从视频开始到结束的时间覆盖，因此作为最基础的时间采样基线。
 
@@ -49,23 +49,23 @@ t_{i_j} = \frac{i_j}{f}
 
 Random-K 从 `N` 个候选帧中均匀地、不重复地选取 `K'` 个帧索引：
 
-```math
-S \sim \operatorname{Uniform}\left(
+$$
+S \sim \mathrm{Uniform}\left(
 \left\{A \subseteq \{0,1,\ldots,N-1\}: |A| = K'\right\}
 \right)
-```
+$$
 
 任意一组合法帧组合被选中的概率相同：
 
-```math
+$$
 P(S = A) = \frac{1}{\binom{N}{K'}}
-```
+$$
 
 单个候选帧被选中的边际概率为：
 
-```math
+$$
 P(i \in S) = \frac{K'}{N}
-```
+$$
 
 实现中固定随机种子以保证单次实验可复现，选中索引会在输入视觉语言模型前重新按时间升序排序。Random-K 不观察问题和视觉内容，用于衡量无语义选帧的表现。
 
@@ -73,23 +73,23 @@ P(i \in S) = \frac{K'}{N}
 
 对第 `i` 个候选帧 `x_i` 使用 CLIP 图像编码器得到特征，并对问题 `q` 使用文本编码器得到文本特征。先进行 L2 归一化：
 
-```math
+$$
 \mathbf{f}_i = \frac{E_I(x_i)}{\|E_I(x_i)\|_2},
 \qquad
 \mathbf{u} = \frac{E_T(q)}{\|E_T(q)\|_2}
-```
+$$
 
 帧与问题的相关性分数为归一化特征的点积，也就是余弦相似度：
 
-```math
+$$
 r_i = \mathbf{f}_i^\top \mathbf{u}
-```
+$$
 
 CLIP Top-K 按 `r_i` 从高到低取前 `K'` 个索引：
 
-```math
-S_{\mathrm{clip}} = \operatorname{TopK}\left(\{r_i\}_{i=0}^{N-1}, K'\right)
-```
+$$
+S_{\mathrm{clip}} = \mathrm{TopK}\left(\{r_i\}_{i=0}^{N-1}, K'\right)
+$$
 
 最后将 `S_clip` 中的帧按时间排序。该方法能针对问题优先保留语义相关画面，但可能选择多个相邻的相似帧。
 
@@ -102,34 +102,34 @@ score = alpha * relevance + (1 - alpha) * novelty
 $$
 其中相关性直接复用 CLIP Top-K 的 `r_i`。对于第 `i` 帧，视觉新颖性定义为其与前一候选帧特征的余弦距离：
 
-```math
+$$
 v_0 = 0,
 \qquad
 v_i = 1 - \mathbf{f}_i^\top \mathbf{f}_{i-1}, \quad i \geq 1
-```
+$$
 
 为了让相关性和新颖性处于同一数值范围，分别进行 min-max 归一化。对于任意分数序列 `z`：
 
-```math
-\operatorname{norm}(z_i) =
+$$
+\mathrm{norm}(z_i) =
 \begin{cases}
 \dfrac{z_i - \min(z)}{\max(z) - \min(z)}, & \max(z) > \min(z) \\
 0, & \max(z) = \min(z)
 \end{cases}
-```
+$$
 
 综合得分为：
 
-```math
-s_i = \alpha \cdot \operatorname{norm}(r_i)
-      + (1 - \alpha) \cdot \operatorname{norm}(v_i)
-```
+$$
+s_i = \alpha \cdot \mathrm{norm}(r_i)
+      + (1 - \alpha) \cdot \mathrm{norm}(v_i)
+$$
 
 当前实现使用 `alpha = 0.75`，使问题相关性占主要权重。随后按 `s_i` 降序贪心选择帧；若 `S` 为已选集合，候选帧 `i` 只有在满足最小时间间隔 `\Delta` 时才加入：
 
-```math
+$$
 \forall j \in S, \quad |t_i - t_j| \geq \Delta
-```
+$$
 
 实验中使用 `\Delta = 1.5` 秒。若短视频或时间约束导致候选不足 `K'` 帧，则按综合得分依次补齐未选帧。该过程同时考虑问题语义、画面变化和时序覆盖。
 
